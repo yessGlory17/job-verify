@@ -1,8 +1,7 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.yessGlory17/jobverify",
   "description": "Detect fake-recruiter and job-offer scams using free OSINT. No API keys.",
-  "status": "active",
   "repository": {
     "url": "https://github.com/yessGlory17/job-verify",
     "source": "github"
@@ -10,8 +9,8 @@
   "version": "0.1.0",
   "packages": [
     {
-      "registry_type": "pypi",
-      "registry_base_url": "https://pypi.org",
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
       "identifier": "jobverify-mcp",
       "version": "0.1.0",
       "transport": {
