@@ -1,7 +1,7 @@
 <!-- mcp-name: io.github.yessGlory17/jobverify -->
 
 <p align="center">
-  <img src="assets/logo/jobverify-banner.png" alt="JobVerify" width="100%">
+  <img src="https://raw.githubusercontent.com/yessGlory17/job-verify/refs/heads/main/assets/logo/jobverify-banner.png" alt="JobVerify" width="100%">
 </p>
 
 <p align="center">
@@ -126,7 +126,7 @@ Add this to your `claude_desktop_config.json`, then restart Claude:
   "mcpServers": {
     "jobverify": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/yessGlory17/job-verify", "jobverify-mcp"]
+      "args": ["jobverify-mcp"]
     }
   }
 }
@@ -137,7 +137,7 @@ Add this to your `claude_desktop_config.json`, then restart Claude:
 One line in your terminal:
 
 ```bash
-claude mcp add jobverify -- uvx --from git+https://github.com/yessGlory17/job-verify jobverify-mcp
+claude mcp add jobverify -- uvx jobverify-mcp
 ```
 
 > The first run takes a few seconds while it downloads the tool; after that it's instant.
