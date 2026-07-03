@@ -1,3 +1,5 @@
+<!-- mcp-name: io.github.yessGlory17/jobverify -->
+
 <p align="center">
   <img src="assets/logo/jobverify-banner.png" alt="JobVerify" width="100%">
 </p>
